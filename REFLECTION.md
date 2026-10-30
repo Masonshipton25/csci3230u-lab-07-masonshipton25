@@ -1,0 +1,3 @@
+In Lab 05, I had to manually clear and rebuild the DOM whenever the Sudoku board changed, making it easy for the DOM and underlying data to get out of sync. With React now in this lab, I only needed to update the todos array using state setters, and React automatically updates the affected components to match the new state.
+
+This makes the code simpler and easier to maintain because I describe what the UI should look like based on the current state, rather than manually managing every DOM change.
